@@ -12,7 +12,7 @@ end
 
 # Initialize pyenv
 set -Ux PYENV_ROOT $HOME/.pyenv
-fish_add_path $PYENV_ROOT/bin
+fish_add_path /opt/homebrew/bin/
 
 # Initialize pyenv
 pyenv init - | source
@@ -20,6 +20,9 @@ pyenv init - | source
 alias vim=nvim
 alias vi=nvim
 alias edit='cd'
+
+# Add OMF to PATH
+set -x PATH $HOME/.local/share/omf/bin $PATH
 
 # Configure bobthefish Powerline
 # set -g theme_title_display_path no #Hide current path from powerline as it is already displayed by tmux
