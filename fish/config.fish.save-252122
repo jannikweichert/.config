@@ -2,8 +2,6 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-oh-my-posh init fish --config ~/.config/fish/themes/mytheme2.omp.json | source
-
 # Ensure to switch to node version of the directory if set for every directory change and on session start
 #functions --copy cd standard_cd
 #function cd

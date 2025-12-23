@@ -1,0 +1,360 @@
+2025/06/06 20:23:13 [INFO] TmuxAI starting up
+2025/06/06 20:23:13 [ERROR] manager.NewManager failed: OpenRouter API key is required
+2025/06/06 20:25:31 [INFO] TmuxAI starting up
+2025/06/06 20:25:31 [ERROR] manager.NewManager failed: OpenRouter API key is required
+2025/06/06 20:29:10 [INFO] TmuxAI starting up
+2025/06/06 20:29:10 [INFO] Found available pane: %16
+2025/06/06 20:29:25 [INFO] Processing command: /help
+2025/06/06 20:29:40 [INFO] Processing command: /prepare
+2025/06/06 20:29:40 [INFO] Found available pane: %16
+2025/06/06 20:29:40 [DEBUG] Parsed exec history:
+2025/06/06 20:30:07 [INFO] Processing command: /info
+2025/06/06 20:30:55 [INFO] Sending 2 messages to AI
+2025/06/06 20:30:55 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:30:57 [DEBUG] API response status: 200, response size: 371 bytes
+2025/06/06 20:30:57 [DEBUG] Received AI response (84 characters): I'll ping Google 10 times for you.
+
+<ExecCommand>ping -c 10 google.com</ExecCommand>
+2025/06/06 20:30:57 [DEBUG] AIResponse: 
+	Message: I'll ping Google 10 times for you.
+	SendKeys: []
+	ExecCommand: [ping -c 10 google.com]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/06 20:31:12 [DEBUG] Command: ping -c 10 google.com
+Output: PING google.com (172.217.18.14): 56 data bytes
+64 bytes from 172.217.18.14: icmp_seq=0 ttl=119 time=16.711 ms
+64 bytes from 172.217.18.14: icmp_seq=1 ttl=119 time=18.563 ms
+64 bytes from 172.217.18.14: icmp_seq=2 ttl=119 time=16.654 ms
+64 bytes from 172.217.18.14: icmp_seq=3 ttl=119 time=22.893 ms
+64 bytes from 172.217.18.14: icmp_seq=4 ttl=119 time=16.919 ms
+64 bytes from 172.217.18.14: icmp_seq=5 ttl=119 time=17.394 ms
+64 bytes from 172.217.18.14: icmp_seq=6 ttl=119 time=16.120 ms
+64 bytes from 172.217.18.14: icmp_seq=7 ttl=119 time=19.044 ms
+64 bytes from 172.217.18.14: icmp_seq=8 ttl=119 time=19.576 ms
+64 bytes from 172.217.18.14: icmp_seq=9 ttl=119 time=23.871 ms
+
+--- google.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 16.120/18.774/23.871/2.546 ms
+Code: 0
+2025/06/06 20:31:13 [INFO] Sending 4 messages to AI
+2025/06/06 20:31:13 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:31:16 [DEBUG] API response status: 200, response size: 588 bytes
+2025/06/06 20:31:16 [DEBUG] Received AI response (301 characters): Perfect! The ping command has completed successfully. Google responded to all 10 ping packets with 0% packet loss. The average response time was 18.774ms, with times ranging from 16.120ms to 23.871ms, which indicates a good connection to Google's servers.
+
+<RequestAccomplished>1</RequestAccomplished>
+2025/06/06 20:31:16 [DEBUG] AIResponse: 
+	Message: Perfect! The ping command has completed successfully. Google responded to all 10 ping packets with 0% packet loss. The average response time was 18.774ms, with times ranging from 16.120ms to 23.871ms, which indicates a good connection to Google's servers.
+	SendKeys: []
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: true
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/06 20:31:41 [INFO] Sending 6 messages to AI
+2025/06/06 20:31:41 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:31:43 [DEBUG] API response status: 200, response size: 353 bytes
+2025/06/06 20:31:43 [DEBUG] Received AI response (66 characters): I'll clear the terminal for you.
+
+<ExecCommand>clear</ExecCommand>
+2025/06/06 20:31:43 [DEBUG] AIResponse: 
+	Message: I'll clear the terminal for you.
+	SendKeys: []
+	ExecCommand: [clear]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/06 20:31:46 [ERROR] Failed to send command to pane %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:46 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:46 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:47 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:47 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:48 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:48 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:49 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:49 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:50 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:50 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:51 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:51 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:52 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:52 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:53 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:53 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:54 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:54 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:55 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:56 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:56 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:57 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:57 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:58 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:58 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:59 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:31:59 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:00 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:00 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:01 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:01 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:02 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:02 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:03 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:03 [ERROR] Failed to capture pane content from %16: exit status 1, stderr: can't find pane: %16
+2025/06/06 20:32:14 [INFO] TmuxAI starting up
+2025/06/06 20:32:14 [INFO] Found available pane: %17
+2025/06/06 20:32:28 [INFO] Processing command: /prepare
+2025/06/06 20:32:28 [INFO] Found available pane: %17
+2025/06/06 20:32:28 [DEBUG] Parsed exec history:
+2025/06/06 20:32:42 [INFO] Processing command: /info
+2025/06/06 20:34:44 [INFO] Processing command: /watch
+2025/06/06 20:35:28 [INFO] Processing command: /watch spot and suggest more efficient or better alternatives to my shell commands
+2025/06/06 20:35:33 [INFO] Sending 2 messages to AI
+2025/06/06 20:35:33 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:35:35 [DEBUG] API response status: 200, response size: 309 bytes
+2025/06/06 20:35:35 [DEBUG] Received AI response (24 characters): <NoComment>1</NoComment>
+2025/06/06 20:35:35 [DEBUG] AIResponse: 
+	Message: 
+	SendKeys: []
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: true
+2025/06/06 20:35:38 [INFO] Sending 2 messages to AI
+2025/06/06 20:35:38 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:35:40 [DEBUG] API response status: 200, response size: 307 bytes
+2025/06/06 20:35:40 [DEBUG] Received AI response (24 characters): <NoComment>1</NoComment>
+2025/06/06 20:35:40 [DEBUG] AIResponse: 
+	Message: 
+	SendKeys: []
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: true
+2025/06/06 20:35:45 [INFO] Sending 2 messages to AI
+2025/06/06 20:35:45 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:35:47 [DEBUG] API response status: 200, response size: 307 bytes
+2025/06/06 20:35:47 [DEBUG] Received AI response (24 characters): <NoComment>1</NoComment>
+2025/06/06 20:35:47 [DEBUG] AIResponse: 
+	Message: 
+	SendKeys: []
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: true
+2025/06/06 20:35:52 [INFO] Sending 2 messages to AI
+2025/06/06 20:35:52 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:35:55 [DEBUG] API response status: 200, response size: 602 bytes
+2025/06/06 20:35:55 [DEBUG] Received AI response (315 characters): I can see you've listed the contents of your home directory and are now exiting the shell. The directory shows a typical macOS user setup with standard folders like Applications, Desktop, Documents, etc., plus some development-related files (package.json, node_modules) and some log files.
+
+<NoComment>1</NoComment>
+2025/06/06 20:35:55 [DEBUG] AIResponse: 
+	Message: I can see you've listed the contents of your home directory and are now exiting the shell. The directory shows a typical macOS user setup with standard folders like Applications, Desktop, Documents, etc., plus some development-related files (package.json, node_modules) and some log files.
+	SendKeys: []
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: true
+2025/06/06 20:36:30 [INFO] Processing command: /reset
+2025/06/06 20:36:30 [DEBUG] Successfully cleared pane %15
+2025/06/06 20:36:30 [ERROR] Failed to get tmux pane details for target %17 exit status 1, stderr: can't find pane: %17
+2025/06/06 20:36:30 [ERROR] Failed to get pane details for %17: exit status 1
+2025/06/06 20:37:19 [INFO] Processing command: /execution
+2025/06/06 20:37:21 [INFO] Processing command: /help
+2025/06/06 20:37:24 [INFO] Processing command: /prepare
+2025/06/06 20:37:24 [INFO] Found available pane: %20
+2025/06/06 20:37:24 [DEBUG] Parsed exec history:
+2025/06/06 20:37:39 [INFO] Processing command: /reset
+2025/06/06 20:37:39 [DEBUG] Successfully cleared pane %15
+2025/06/06 20:37:39 [DEBUG] Successfully cleared pane %20
+2025/06/06 20:37:49 [INFO] Processing command: /prepare
+2025/06/06 20:37:49 [INFO] Found available pane: %23
+2025/06/06 20:37:49 [DEBUG] Parsed exec history:
+2025/06/06 20:40:29 [INFO] TmuxAI starting up
+2025/06/06 20:40:29 [INFO] Found available pane: %29
+2025/06/06 20:40:29 [INFO] Starting with initial subcommand: close all tmux windows
+2025/06/06 20:40:29 [INFO] Initial task provided: close all tmux windows
+2025/06/06 20:40:29 [INFO] Sending 2 messages to AI
+2025/06/06 20:40:29 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:40:31 [DEBUG] API response status: 200, response size: 397 bytes
+2025/06/06 20:40:31 [DEBUG] Received AI response (110 characters): I'll close all tmux windows for you by killing the tmux session.
+
+<ExecCommand>tmux kill-session</ExecCommand>
+2025/06/06 20:40:31 [DEBUG] AIResponse: 
+	Message: I'll close all tmux windows for you by killing the tmux session.
+	SendKeys: []
+	ExecCommand: [tmux kill-session]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/06 20:40:51 [INFO] TmuxAI starting up
+2025/06/06 20:40:51 [INFO] Found available pane: %31
+2025/06/06 20:40:51 [INFO] Starting with initial subcommand: close all existing tmux sessions
+2025/06/06 20:40:51 [INFO] Initial task provided: close all existing tmux sessions
+2025/06/06 20:40:51 [INFO] Sending 2 messages to AI
+2025/06/06 20:40:51 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 20:40:53 [DEBUG] API response status: 200, response size: 409 bytes
+2025/06/06 20:40:53 [DEBUG] Received AI response (122 characters): I'll close all existing tmux sessions for you. Let me kill all tmux sessions.
+
+<ExecCommand>tmux kill-server</ExecCommand>
+2025/06/06 20:40:53 [DEBUG] AIResponse: 
+	Message: I'll close all existing tmux sessions for you. Let me kill all tmux sessions.
+	SendKeys: []
+	ExecCommand: [tmux kill-server]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/06 21:13:44 [INFO] TmuxAI starting up
+2025/06/06 21:13:44 [INFO] Found available pane: %5
+2025/06/06 21:13:44 [INFO] Starting with initial subcommand: install LuaCov
+2025/06/06 21:13:44 [INFO] Initial task provided: install LuaCov
+2025/06/06 21:13:44 [INFO] Sending 2 messages to AI
+2025/06/06 21:13:44 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 21:13:47 [DEBUG] API response status: 200, response size: 463 bytes
+2025/06/06 21:13:47 [DEBUG] Received AI response (176 characters): I can see you're working in a Neovim session with a Lua project. I'll install LuaCov for you using the system package manager.
+
+<ExecCommand>brew install luarocks</ExecCommand>
+2025/06/06 21:13:47 [DEBUG] AIResponse: 
+	Message: I can see you're working in a Neovim session with a Lua project. I'll install LuaCov for you using the system package manager.
+	SendKeys: []
+	ExecCommand: [brew install luarocks]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/06 21:13:58 [INFO] Sending 4 messages to AI
+2025/06/06 21:13:58 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/06 21:14:04 [DEBUG] API response status: 200, response size: 511 bytes
+2025/06/06 21:14:04 [DEBUG] Received AI response (224 characters): I can see that Neovim is currently in insert mode and has some autocomplete suggestions showing. I need to exit insert mode and get to a shell to install LuaCov. Let me exit Neovim first.
+
+<TmuxSendKeys>Escape</TmuxSendKeys>
+2025/06/06 21:14:04 [DEBUG] AIResponse: 
+	Message: I can see that Neovim is currently in insert mode and has some autocomplete suggestions showing. I need to exit insert mode and get to a shell to install LuaCov. Let me exit Neovim first.
+	SendKeys: [Escape]
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/08 15:36:15 [INFO] TmuxAI starting up
+2025/06/08 15:36:15 [INFO] Found available pane: %13
+2025/06/08 15:36:15 [INFO] Starting with initial subcommand: find process blocking port 4200
+2025/06/08 15:36:15 [INFO] Initial task provided: find process blocking port 4200
+2025/06/08 15:36:15 [INFO] Sending 2 messages to AI
+2025/06/08 15:36:15 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/08 15:36:18 [DEBUG] API response status: 200, response size: 492 bytes
+2025/06/08 15:36:18 [DEBUG] Received AI response (205 characters): I can see you have nvim open with an Angular project. I'll help you find what process is blocking port 4200, which is commonly used by Angular development servers.
+
+<ExecCommand>lsof -i :4200</ExecCommand>
+2025/06/08 15:36:18 [DEBUG] AIResponse: 
+	Message: I can see you have nvim open with an Angular project. I'll help you find what process is blocking port 4200, which is commonly used by Angular development servers.
+	SendKeys: []
+	ExecCommand: [lsof -i :4200]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/08 15:36:22 [INFO] Sending 4 messages to AI
+2025/06/08 15:36:22 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/08 15:36:26 [DEBUG] API response status: 200, response size: 543 bytes
+2025/06/08 15:36:26 [DEBUG] Received AI response (254 characters): I can see that nvim is currently in INSERT mode and there seems to be some autocomplete or search happening with ":4200" visible. I need to exit this mode first and then run the command to find processes on port 4200.
+
+<TmuxSendKeys>Escape</TmuxSendKeys>
+2025/06/08 15:36:26 [DEBUG] AIResponse: 
+	Message: I can see that nvim is currently in INSERT mode and there seems to be some autocomplete or search happening with ":4200" visible. I need to exit this mode first and then run the command to find processes on port 4200.
+	SendKeys: [Escape]
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/08 15:36:27 [INFO] Sending 6 messages to AI
+2025/06/08 15:36:27 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/08 15:36:30 [DEBUG] API response status: 200, response size: 464 bytes
+2025/06/08 15:36:30 [DEBUG] Received AI response (177 characters): Good, now I'm back in NORMAL mode in nvim. I need to open a terminal within nvim to run the command to find processes blocking port 4200.
+
+<TmuxSendKeys>:terminal</TmuxSendKeys>
+2025/06/08 15:36:30 [DEBUG] AIResponse: 
+	Message: Good, now I'm back in NORMAL mode in nvim. I need to open a terminal within nvim to run the command to find processes blocking port 4200.
+	SendKeys: [:terminal]
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/08 15:47:20 [INFO] TmuxAI starting up
+2025/06/08 15:47:20 [INFO] Found available pane: %20
+2025/06/08 15:47:20 [INFO] Starting with initial subcommand: set CHROME_BIN to i/Applications/Google Chrome Dev.app in fish
+2025/06/08 15:47:20 [INFO] Initial task provided: set CHROME_BIN to i/Applications/Google Chrome Dev.app in fish
+2025/06/08 15:47:20 [INFO] Sending 2 messages to AI
+2025/06/08 15:47:20 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/08 15:47:24 [DEBUG] API response status: 200, response size: 462 bytes
+2025/06/08 15:47:24 [DEBUG] Received AI response (173 characters): I'll set the CHROME_BIN environment variable to point to Google Chrome Dev in fish shell.
+
+<ExecCommand>set -x CHROME_BIN "/Applications/Google Chrome Dev.app"</ExecCommand>
+2025/06/08 15:47:24 [DEBUG] AIResponse: 
+	Message: I'll set the CHROME_BIN environment variable to point to Google Chrome Dev in fish shell.
+	SendKeys: []
+	ExecCommand: [set -x CHROME_BIN "/Applications/Google Chrome Dev.app"]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/06/08 15:48:05 [INFO] Sending 4 messages to AI
+2025/06/08 15:48:05 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/06/08 15:48:10 [DEBUG] API response status: 200, response size: 536 bytes
+2025/06/08 15:48:10 [DEBUG] Received AI response (249 characters): Perfect! I can see the CHROME_BIN environment variable has been successfully set to point to the Google Chrome Dev executable. The command completed successfully and you're back at the fish shell prompt.
+
+<RequestAccomplished>1</RequestAccomplished>
+2025/06/08 15:48:10 [DEBUG] AIResponse: 
+	Message: Perfect! I can see the CHROME_BIN environment variable has been successfully set to point to the Google Chrome Dev executable. The command completed successfully and you're back at the fish shell prompt.
+	SendKeys: []
+	ExecCommand: []
+	PasteMultilineContent: 
+	RequestAccomplished: true
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false
+2025/10/11 21:10:13 [INFO] TmuxAI starting up
+2025/10/11 21:10:13 [INFO] Found available pane: %19
+2025/10/11 21:10:13 [INFO] Starting with initial subcommand: close all tmux windows
+2025/10/11 21:10:13 [INFO] Initial task provided: close all tmux windows
+2025/10/11 21:10:13 [INFO] Sending 2 messages to AI
+2025/10/11 21:10:13 [DEBUG] Sending API request to: https://api.anthropic.com/v1/chat/completions with model: claude-sonnet-4-20250514
+2025/10/11 21:10:16 [DEBUG] API response status: 200, response size: 422 bytes
+2025/10/11 21:10:16 [DEBUG] Received AI response (135 characters): I'll close all tmux windows for you. This will terminate all sessions and windows in tmux.
+
+<ExecCommand>tmux kill-server</ExecCommand>
+2025/10/11 21:10:16 [DEBUG] AIResponse: 
+	Message: I'll close all tmux windows for you. This will terminate all sessions and windows in tmux.
+	SendKeys: []
+	ExecCommand: [tmux kill-server]
+	PasteMultilineContent: 
+	RequestAccomplished: false
+	ExecPaneSeemsBusy: false
+	WaitingForUserResponse: false
+	NoComment: false

@@ -1,8 +1,6 @@
-if status is-interactive
+xif status is-interactive
     # Commands to run in interactive sessions can go here
 end
-
-oh-my-posh init fish --config ~/.config/fish/themes/mytheme2.omp.json | source
 
 # Ensure to switch to node version of the directory if set for every directory change and on session start
 #functions --copy cd standard_cd
@@ -14,7 +12,7 @@ oh-my-posh init fish --config ~/.config/fish/themes/mytheme2.omp.json | source
 
 # Initialize pyenv
 set -Ux PYENV_ROOT $HOME/.pyenv
-fish_add_path /opt/homebrew/bin/
+fish_add_path $PYENV_ROOT/bin
 
 # Initialize pyenv
 pyenv init - | source
@@ -22,9 +20,6 @@ pyenv init - | source
 alias vim=nvim
 alias vi=nvim
 alias edit='cd'
-
-# Add OMF to PATH
-set -x PATH $HOME/.local/share/omf/bin $PATH
 
 # Configure bobthefish Powerline
 # set -g theme_title_display_path no #Hide current path from powerline as it is already displayed by tmux
@@ -34,8 +29,6 @@ set -g theme_newline_prompt '> '
 
 # Set ANDROID_HOME to your Android SDK location
 set -x ANDROID_HOME ~/Library/Android/sdk
-
-set -x PATH /Users/jannikweichert/Library/pnpm $PATH
 
 # Add Android SDK tools to PATH
 set -x PATH $ANDROID_HOME/platform-tools $ANDROID_HOME/tools $PATH

@@ -1,0 +1,367 @@
+2018-07-27 14:49:59,163 DEBUG    root            Loaded Command Group: [u'gcloud', u'components']
+2018-07-27 14:49:59,166 DEBUG    root            Loaded Command Group: [u'gcloud', u'components', u'list']
+2018-07-27 14:49:59,168 DEBUG    root            Running [gcloud.components.list] with arguments: [--quiet: "True"]
+2018-07-27 14:49:59,758 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 206.0.0
+
+2018-07-27 14:49:59,758 INFO     ___FILE_ONLY___ The latest available version is: 209.0.0
+
+2018-07-27 14:49:59,758 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,759 INFO     root            Display format: "table[box,title="Components"](state.name:label=Status,name:label=Name,id:label=ID,size.size(zero="",min=1048576):label=Size:align=right)"
+2018-07-27 14:49:59,765 INFO     ___FILE_ONLY___ ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+2018-07-27 14:49:59,765 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ │                                                   Components                                                   │
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ ├──────────────────┬──────────────────────────────────────────────────────┬──────────────────────────┬───────────┤
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ │      Status      │                         Name                         │            ID            │    Size   │
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ ├──────────────────┼──────────────────────────────────────────────────────┼──────────────────────────┼───────────┤
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ Update Available
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,766 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ Cloud SDK Core Libraries                            
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ core                    
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___   8.1 MiB
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,767 INFO     ___FILE_ONLY___ Update Available
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool                     
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___ gsutil                  
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___   3.5 MiB
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,768 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ App Engine Go Extensions                            
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ app-engine-go           
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___ 152.8 MiB
+2018-07-27 14:49:59,769 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ Cloud Bigtable Command Line Tool                    
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ cbt                     
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,770 INFO     ___FILE_ONLY___   4.9 MiB
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ Cloud Bigtable Emulator                             
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ bigtable                
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,771 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___   4.3 MiB
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ Cloud Datalab Command Line Tool                     
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___ datalab                 
+2018-07-27 14:49:59,772 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___   < 1 MiB
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ Cloud Datastore Emulator                            
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,773 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ cloud-datastore-emulator
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___  17.4 MiB
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___ Cloud Datastore Emulator (Legacy)                   
+2018-07-27 14:49:59,774 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ gcd-emulator            
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___  38.1 MiB
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___ Cloud Pub/Sub Emulator                              
+2018-07-27 14:49:59,775 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ pubsub-emulator         
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___  33.4 MiB
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,776 INFO     ___FILE_ONLY___ Cloud SQL Proxy                                     
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ cloud_sql_proxy         
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___   2.5 MiB
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,777 INFO     ___FILE_ONLY___ Emulator Reverse Proxy                              
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ emulator-reverse-proxy  
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___  14.5 MiB
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,778 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ Google Cloud Build Local Builder                    
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ cloud-build-local       
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___   4.4 MiB
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,779 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ Google Container Local Builder                      
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ container-builder-local 
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___   4.4 MiB
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,780 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___ Google Container Registry's Docker credential helper
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___ docker-credential-gcr   
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___   1.8 MiB
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,781 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ gcloud Alpha Commands                               
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ alpha                   
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___   < 1 MiB
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,782 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ gcloud Beta Commands                                
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ beta                    
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___   < 1 MiB
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,783 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ gcloud app Java Extensions                          
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ app-engine-java         
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ 118.6 MiB
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,784 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ gcloud app PHP Extensions                           
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ app-engine-php          
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___  21.9 MiB
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,785 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ gcloud app Python Extensions                        
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ app-engine-python       
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___   6.1 MiB
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,786 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ gcloud app Python Extensions (Extra Libraries)      
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ app-engine-python-extras
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___  28.5 MiB
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,787 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ Not Installed   
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ kubectl                                             
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ kubectl                 
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___  14.8 MiB
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,788 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ Installed       
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ BigQuery Command Line Tool                          
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ bq                      
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ │ 
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___   < 1 MiB
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___  
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ │
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,789 INFO     ___FILE_ONLY___ └──────────────────┴──────────────────────────────────────────────────────┴──────────────────────────┴───────────┘
+2018-07-27 14:49:59,790 INFO     ___FILE_ONLY___ 
+
+2018-07-27 14:49:59,790 INFO     ___FILE_ONLY___ To install or remove components at your current SDK version [206.0.0], run:
+  $ gcloud components install COMPONENT_ID
+  $ gcloud components remove COMPONENT_ID
+
+To update your SDK installation to the latest version [209.0.0], run:
+  $ gcloud components update
+
+

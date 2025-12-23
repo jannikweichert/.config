@@ -4,7 +4,7 @@ return {
     optional = true,
     dependencies = {
       {
-        "williamboman/mason.nvim",
+        "mason-org/mason.nvim",
         opts = function(_, o)
           o.ensure_installed = o.ensure_installed or {}
           table.insert(o.ensure_installed, "js-debug-adapter")
@@ -18,7 +18,11 @@ return {
     opts = function()
       local dap = require("dap")
       local mason = require("mason-registry")
-      local js_dbg = mason.get_package("js-debug-adapter"):get_install_path() .. "/js-debug/src/dapDebugServer.js"
+      local ok, js_dbg = pcall(function()
+        local pkg = mason.get_package("js-debug-adapter")
+        return pkg:get_install_path() .. "/js-debug/src/dapDebugServer.js"
+      end)
+      js_dbg = (js_dbg and js_dbg or "")
 
       dap.adapters["pwa-node"] = {
         type = "server",
